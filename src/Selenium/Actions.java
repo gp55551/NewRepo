@@ -40,6 +40,7 @@ public class Actions {
 		System.out.println("Alert Text\n" +alert.getText());
 		alert.accept();
 		
+		
 	}
 
 }

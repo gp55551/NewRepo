@@ -2,9 +2,12 @@ package Selenium;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
 
 public class Basics {
 static WebDriver driver; 
@@ -26,7 +29,8 @@ static WebDriver driver;
 		
 		System.out.println("closing browser");
 		driver.quit();
-
+		
+		
 	}
 
 }
