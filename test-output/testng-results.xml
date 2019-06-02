@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-26T06:34:20Z" name="Suite" finished-at="2019-04-26T06:34:20Z" duration-ms="47">
+  <suite started-at="2019-06-02T16:53:12Z" name="Default suite" finished-at="2019-06-02T16:53:29Z" duration-ms="16683">
     <groups>
     </groups>
-    <test started-at="2019-04-26T06:34:20Z" name="Test" finished-at="2019-04-26T06:34:20Z" duration-ms="47">
-      <class name="Selenium.NewTest">
-        <test-method signature="fdfd()[pri:0, instance:Selenium.NewTest@4116aac9]" started-at="2019-04-26T12:04:20Z" name="fdfd" finished-at="2019-04-26T12:04:20Z" duration-ms="16" status="PASS">
+    <test started-at="2019-06-02T16:53:12Z" name="Default test" finished-at="2019-06-02T16:53:29Z" duration-ms="16683">
+      <class name="Selenium.Screen1">
+        <test-method signature="run()[pri:0, instance:Selenium.Screen1@302552ec]" started-at="2019-06-02T22:23:12Z" name="run" finished-at="2019-06-02T22:23:29Z" duration-ms="16656" status="FAIL">
+          <exception class="org.sikuli.script.FindFailed">
+            <message>
+              <![CDATA[D:/GoogleSearchButton.PNG: (211x88) in S(0)[0,0 1280x720] E:Y, T:3.0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[FindFailed: D:/GoogleSearchButton.PNG: (211x88) in S(0)[0,0 1280x720] E:Y, T:3.0
+  Line 2761, in file Region.java
+
+	at org.sikuli.script.Region.wait(Region.java:2761)
+	at org.sikuli.script.Region.find(Region.java:2326)
+	at Selenium.Screen1.run(Screen1.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.sikuli.script.FindFailed -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fdfd -->
-      </class> <!-- Selenium.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- run -->
+      </class> <!-- Selenium.Screen1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

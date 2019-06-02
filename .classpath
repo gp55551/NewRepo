@@ -31,8 +31,8 @@
 	<classpathentry kind="lib" path="C:/it software/poi-bin-3.14/poi-3.14/lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="C:/it software/poi-bin-3.14/poi-3.14/ooxml-lib/curvesapi-1.03.jar"/>
 	<classpathentry kind="lib" path="C:/it software/poi-bin-3.14/poi-3.14/ooxml-lib/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/gpatn/Downloads/sikulixapi-1.1.0.jar"/>
 	<classpathentry kind="lib" path="D:/jars/testng-6.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/gpatn/Downloads/jcommander-1.27.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gpatn/Downloads/sikulixsetup-1.1.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
